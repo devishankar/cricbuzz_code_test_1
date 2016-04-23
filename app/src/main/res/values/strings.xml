@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Devishankar Cricbuzz test</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_calender">Calender</string>
+    <string name="msg_please_wait">Please wait…</string>
+    <string name="msg_no_result">No result found</string>
+    <string name="msg_something_wrong">Something went wrong</string>
+    <string name="msg_settings">Settings clicked</string>
+    <string name="msg_calender">Calender clicked</string>
+    <string name="msg_back">Back pressed</string>
+
+</resources>

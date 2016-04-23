@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/rlItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingBottom="12dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="12dp">
+
+        <ImageView
+            android:id="@+id/ivTeam1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="#e1dede" />
+
+        <TextView
+            android:id="@+id/tvTeam1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivTeam1"
+            android:layout_alignTop="@+id/ivTeam1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/ivTeam1"
+            android:layout_toRightOf="@id/ivTeam1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="Chennai Super Kings"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#cb000000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/ivTeam2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@id/ivTeam1"
+            android:layout_marginTop="10dp"
+            android:background="#e1dede" />
+
+        <TextView
+            android:id="@+id/tvTeam2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivTeam2"
+            android:layout_alignTop="@+id/ivTeam2"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/ivTeam2"
+            android:layout_toLeftOf="@+id/tvMatchTime"
+            android:layout_toRightOf="@+id/ivTeam2"
+            android:layout_toStartOf="@+id/tvMatchTime"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="Chennai Super Kings"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#cb000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvMatchTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivTeam2"
+            android:layout_alignTop="@+id/ivTeam2"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_toLeftOf="@+id/ivNotification"
+            android:layout_toStartOf="@+id/ivNotification"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="4.00 pm"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FF9100"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/ivNotification"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivTeam2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/ivTeam2"
+            android:layout_below="@id/ivTeam1"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_action_social_notifications_off" />
+
+        <TextView
+            android:id="@+id/tvMatchNu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivTeam2"
+            android:layout_marginTop="10dp"
+            android:text="12 Match"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/rlItem"
+        android:background="#cecece" />
+</RelativeLayout>
